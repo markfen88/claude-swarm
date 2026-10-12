@@ -1,0 +1,10 @@
+{
+  "name": "swarm",
+  "displayName": "Swarm (Sonnet lead / Haiku runner / Opus advisor)",
+  "version": "1.0.0",
+  "description": "Sonnet does the real work, delegates mechanical data pulls/pushes to a Haiku subagent, and consults Opus as advisor.",
+  "author": { "name": "markfen88" },
+  "repository": "https://github.com/markfen88/claude-swarm",
+  "license": "MIT",
+  "keywords": ["advisor", "subagents", "haiku", "delegation"]
+}

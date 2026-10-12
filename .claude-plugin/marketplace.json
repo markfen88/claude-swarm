@@ -1,0 +1,8 @@
+{
+  "name": "markfen88-plugins",
+  "description": "markfen88's personal Claude Code plugins",
+  "owner": { "name": "markfen88" },
+  "plugins": [
+    { "name": "swarm", "source": "./", "description": "Sonnet lead / Haiku runner / Opus advisor workflow" }
+  ]
+}
