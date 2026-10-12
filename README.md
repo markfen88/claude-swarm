@@ -25,7 +25,7 @@ Then, in a Claude Code session, run `/swarm:setup` once. Plugins can't set the m
 Call the wrapper from your clone of this repo (the plugin cache path changes on every update, so do not point scripts there).
 
 ```powershell
-& "C:SERSMARKUSPROJECTSAUDE-SWARMSCRIPTSAUDE-SWARM.PS1" -P "pull the latest logs and summarize errors" --permission-mode acceptEdits
+& "C:\Users\markus\Projects\claude-swarm\scripts\claude-swarm.ps1" -p "pull the latest logs and summarize errors" --permission-mode acceptEdits
 ```
 
 - Headless runs can't answer permission prompts: pass `--permission-mode acceptEdits` or `--allowedTools ...` for write/push jobs.
