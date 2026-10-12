@@ -16,8 +16,6 @@ claude plugin marketplace add markfen88/claude-swarm
 claude plugin install swarm@markfen88-plugins
 ```
 
-The repo is private, so git on that machine must be able to clone it (e.g. `gh auth login`).
-
 Then, in a Claude Code session, run `/swarm:setup` once. Plugins can't set the main model or advisor, so this writes `"model": "sonnet"`, `"advisorModel": "opus"` and a delegation rule into your user config.
 
 ## Scripts
